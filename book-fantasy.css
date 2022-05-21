@@ -1,13 +1,9 @@
-@import "base/indent.css";
+@import "base/book.css";
 
 /* text formatting */
 
 p, li, blockquote, h1, h2, h3, h4, h5, h6 {
   font-family: 'Adobe Hebrew', Melior, serif;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  text-align: center;
 }
 
 /* title */
@@ -19,13 +15,5 @@ h1 {
 /* chapter */
 h2, h3, h4, h5, h6 {
   /* font-family: Lunatix, serif; */
-  font-weight: normal;
-}
-
-code {
-  font-family: 'Roboto Mono', 'Jetbrains Mono', monospace;
-}
-
-blockquote p {
-  font-style: italic; /* optional */
+  font-weight: bold;
 }
