@@ -1,0 +1,19 @@
+@import "base/book.css";
+
+/* text formatting */
+
+p, li, blockquote, h1, h2, h3, h4, h5, h6 {
+  font-family: Melior, 'Adobe Hebrew', serif;
+}
+
+/* title */
+h1 {
+  font-family: Lunatix, 'KestrelW00-Script', 'Caslon Antique', serif;
+  font-weight: bold;
+}
+
+/* chapter */
+h2, h3, h4, h5, h6 {
+  font-family: Lunatix, serif;
+  font-weight: normal;
+}
