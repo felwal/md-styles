@@ -11,6 +11,13 @@ p {
   margin-bottom: 0;
 }
 
+/* don't use indentation on blockquotes */
+blockquote p {
+  text-indent: 0;
+  text-align: left;
+  margin-top: 1em;
+}
+
 /* first paragraph */
 p:first-child {
   text-indent: 0;
@@ -38,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1:first-child {
-  margin-top: 0em;
+  margin-top: 0;
 }
 
 hr {
