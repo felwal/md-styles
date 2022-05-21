@@ -5,7 +5,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  text-indent: 1em; /* 1em–2em */
+  text-indent: 1.5em; /* 1em–2em */
   text-align: justify;
   margin-top: 0;
   margin-bottom: 0;
@@ -26,7 +26,7 @@ hr + p {
   text-indent: 0; /* kind of optional */
 }
 
-/* after block and list */
+/* after block, list */
 blockquote + p, p + pre + p, ol + p, ul + p {
   text-indent: 0; /* optional */
 }
@@ -46,8 +46,27 @@ hr {
   border: none;
 }
 
-/* block */
-blockquote, p + pre {
+/* block, table */
+blockquote, p + pre, table {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* figure text */
+table + p {
+  text-indent: 0;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: small;
+  font-style: italic;
+}
+
+/* after figure text */
+table + p + p {
+  text-indent: 0;
+}
+
+p img {
   margin-top: 1em;
   margin-bottom: 1em;
 }
