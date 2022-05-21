@@ -1,0 +1,24 @@
+@import "style-indent.css";
+
+/* text formatting */
+
+p, li, blockquote, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Times New Roman', serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+
+code {
+  font-family: 'Roboto Mono', 'Jetbrains Mono', monospace;
+}
+
+blockquote p {
+  line-height: 1.15;
+  font-style: italic; /* optional */
+}

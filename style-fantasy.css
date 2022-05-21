@@ -1,0 +1,31 @@
+@import "style-indent.css";
+
+/* text formatting */
+
+p, li, blockquote, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Adobe Hebrew', Melior, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/* title */
+h1 {
+  font-family: 'KestrelW00-Script', Lunatix, 'Caslon Antique', serif;
+  font-weight: normal;
+}
+
+/* chapter */
+h2, h3, h4, h5, h6 {
+  /* font-family: Lunatix, serif; */
+  font-weight: normal;
+}
+
+code {
+  font-family: 'Roboto Mono', 'Jetbrains Mono', monospace;
+}
+
+blockquote p {
+  font-style: italic; /* optional */
+}
