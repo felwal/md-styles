@@ -11,7 +11,7 @@ p {
   margin-bottom: 0;
 }
 
-/* don't use indentation on blockquotes */
+/* don't use indentation in blockquotes */
 blockquote p {
   text-indent: 0;
   text-align: left;
@@ -35,7 +35,9 @@ hr + p {
 
 /* after block, list */
 blockquote + p, p + pre + p, ol + p, ul + p {
-  text-indent: 0; /* optional */
+  /* in reality this depends on if you want the previous paragraph to
+  continue or not. we assume: not. */
+  text-indent: 1.5em;
 }
 
 /* inter paragraph formatting */
